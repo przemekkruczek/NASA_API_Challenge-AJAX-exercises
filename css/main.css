@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-size: 60px;
+    background-color: black;
+}
+.entrance_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.entrance_page h1 {
+    font-size: 100%;
+    text-align: center;
+    color: tomato;
+    text-shadow: 1px 1px 5px goldenrod;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.mars_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li {
+    list-style-type:none;
+    margin: 15px;
+}
+.photo_list{
+    width: 250px;
+    height: 180px;
+    border: solid 2px gainsboro;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.loader_photo {
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 25%;
+    font-weight: 700;
+    border-radius: 12px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+
